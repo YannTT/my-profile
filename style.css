@@ -1,0 +1,111 @@
+/*Colors and fonts*/
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 38, 38);
+  font-family: Courier;
+  font-size: 17px;
+}
+
+h1{
+  color: #4AA98F;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2{
+  color: rgb(0, 0, 0);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  color: #0C55F5;
+  font-weight: bold;
+}
+
+a:hover{
+  color: rgb(200, 200, 200);
+}
+
+
+
+/*Custom desing with classes*/
+
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 390px;
+  }
+}
+
+@media (max-width: 760px){
+  .container{
+    width: 600px;
+  }
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+.btn-blue{
+  background-color: #4AA98F;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover{
+  background-color:#2E715F;
+}
+
+.list-horizontal{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-horizontal li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-horizontal i{
+  font-size: 45px;
+  color: rgb(190, 190, 190);
+}
+
+.list-horizontal i:hover{
+  color: black;
+}
+
+#introduction p{
+  margin-bottom: 30px;
+}
+
+#introduction img{
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
